@@ -6,6 +6,12 @@
 
     <GridLayout>
       <Label class="info">
+        <Page loaded="pageLoaded">
+          <ActionBar title="My App" class="action-bar"></ActionBar>
+          <Image
+            src="https://user-images.githubusercontent.com/544280/42960643-66d498ac-8b5a-11e8-8946-7224eefea6a5.jpg"
+          ></Image>
+        </Page>
         <FormattedString>
           <Span class="fas" text.decode="&#xf135; " />
           <Span :text="message" />
