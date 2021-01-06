@@ -22,6 +22,8 @@
 </template>
 
 <script>
+import "~nativescript-theme-core/css/sky.css";
+
 export default {
   computed: {
     message() {
