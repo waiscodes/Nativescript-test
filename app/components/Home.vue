@@ -35,7 +35,7 @@ export default {
 
 .info {
   font-size: 20;
-  horizontal-align: center;
+  align-items: center;
   vertical-align: center;
 }
 </style>
