@@ -25,7 +25,7 @@
 export default {
   computed: {
     message() {
-      return "Hello World";
+      return "Hello World!";
     }
   }
 };
@@ -43,5 +43,20 @@ export default {
   font-size: 20;
   align-items: center;
   vertical-align: center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360);
+  }
+}
+image {
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 </style>
